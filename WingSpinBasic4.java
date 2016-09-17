@@ -233,15 +233,15 @@ public class WingSpinBasic4 extends AdvancedRobot {
 		    theta - getGunHeadingRadians()));
 		
 		
-		if (nFired > 10 && nHit * 3 < nFired){
+		/*if (nFired > 10 && nHit * 3 < nFired){
 			//It's not working guys - accuracy is too low so will be losing health
 			if (nPause <= 0){
-				nPause = 1000;
+				nPause = 10;
 			} else {
 				nPause--;
 				System.out.println(nPause);
 			}
-		}
+		}*/
 		
 		if (nFired > 100){
 			nFired = 0;
